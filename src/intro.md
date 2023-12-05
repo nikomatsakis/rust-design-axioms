@@ -31,6 +31,8 @@ We believe that...
 
 **The axioms begin with a belief about the kinds of things Rust users value.** Each axiom begins with a core belief that identifies something that is important to Rust users. If these things don't sound like things you need for a project, then Rust may not be the right choice for that project.
 
+**The axioms are not absolute.** To start, these axioms should be treated as a living document that can grow and change over time. But also, the axioms don't apply equally in all situations. For example, in some high-assurance domains, reliability takes precedence over accessibility; when designing aspects of Rust that are targeting those areas, it may make sense to develop more specialized versions of the axioms.
+
 ## How to contribute to the axioms
 
 These axioms are a work in progress and we would very much like your help to make them better!
