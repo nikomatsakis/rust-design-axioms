@@ -2,10 +2,8 @@
 
 These axioms are very much a work in progress -- and they always will be! We are actively soliciting contribution. For changes to the axioms themselves or the ordering between them, we prefer you to open an issue so we can foster discussion. We have several issue templates available:
 
-* [Suggest a new axiom]() that covers some aspect of Rust's design you don't feel is encapsulated. When you do so, think about where you feel it fits in the ordering -- is it in tension with any of the existing axioms?
-* [Suggest a change or comment on an existing axiom]() to expand its scope or improve the wording.
-* [Suggest an example that supports the current ordering]() 
-* [Suggest a counter-example to the current ordering]()
+* [Suggest a new axiom or a change to an axiom]() -- what is some aspect of Rust's design that you feel is not explained by the existing axioms? Or perhaps you think the existing axioms could be changed or combined?
+* [Suggest an example that supports or rebuts the current ordering]() -- what is a part of Rust where two axioms were in tension, and which one got preference? Does that support the current ordering of the axioms?
 
 For other changes, PRs against the site are welcome:
 
