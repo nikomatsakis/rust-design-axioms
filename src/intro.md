@@ -23,7 +23,7 @@ We believe that...
 * **Systems programmers need to know what is happening and where,** and so system details and especially performance costs in Rust are **transparent and tunable**. When building systems, it's often important to know what's going on underneath the abstractions. Abstractions should still leave the programmer feeling like they're in control of the underlying system, such as by making it easy to notice (or avoid) certain types of operations. ![Confident][] 
 * **Rust users want to focus on solving their problem, not the fiddly details,** so Rust is **productive**. We favor APIs that where the most convenient and high-level option is also the most efficient one. We support portability across operating systems and execution environments by default. We aren't explicit for the sake of being explicit, but rather to surface details we believe are needed. ![WIP][]
 * **N×M is bigger than N+M**, and so we design for **composability and orthogonality**. We are looking for features that tackle independent problems and build on one another, giving rise to N×M possibilities. ![WIP][]
-* **It's nicer to use one language than two,** so Rust is **versatile**. We want to make Rust reasonably good for every kind of development, whether that's low-level systems code or high-level scripting. ![WIP][]
+* **Rust users want to apply Rust to many kinds of problems,** so Rust is **versatile**. We want to make Rust reasonably good for every kind of development, whether that's low-level systems code or high-level scripting. ![WIP][]
 
 ...where earlier things take precedence.
 
