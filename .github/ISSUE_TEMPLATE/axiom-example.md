@@ -2,7 +2,7 @@
 name: Suggest a new axiom or a change to an axiom
 about: Describe this issue template's purpose here.
 title: ''
-labels: ''
+labels: 'change-to-axioms'
 assignees: ''
 
 ---

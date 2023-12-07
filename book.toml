@@ -4,3 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Rust Design Axioms"
+
+[output.html]
+curly-quotes = true
+git-repository-url = "https://github.com/nikomatsakis/rust-design-axioms"
+edit-url-template = "https://github.com/nikomatsakis/rust-design-axioms/edit/main/src/{path}"

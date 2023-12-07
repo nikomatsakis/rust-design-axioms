@@ -6,6 +6,8 @@ So what is that makes Rust *Rust*?
 The Rust Design Axioms repository is an attempt to articulate the answer.
 **These axioms are a work in progress! [Please contribute your ideas on how to improve them!](./contributing.md)**
 
+For more about the design axioms, see [this blog post introducing the idea]().
+
 ## Rust's design axioms
 
 > **Note on status:** Some of the axioms are tagged with ![Confident][]. These are axioms that that I feel pretty good about and where I am pretty confident about where they fall in the ordering. Others are tagged as ![WIP][]. These are cases where the wording may need improvement and the ordering is less clear; some of them may want to be merged with others. --nikomatsakis
@@ -19,7 +21,7 @@ We believe that...
 * **Rust users want to surface problems as early as possible,** and so Rust is designed to be **reliable**. We make choices that help surface bugs earlier. We don't make guesses about what our users meant to do, we let them tell us, and we endeavor to make the meaning of code transparent to its reader. And we always, always guarantee memory safety and data-race freedom in safe Rust code. ![Confident][] 
 * **Rust users are just as obsessed with quality as we are,** and so Rust is **extensible**. We empower our users to build their own abstractions. We prefer to let people build what they need than to try (and fail) to give them everything ourselves. ![Confident][] 
 * **Systems programmers need to know what is happening and where,** and so system details and especially performance costs in Rust are **transparent and tunable**. When building systems, it's often important to know what's going on underneath the abstractions. Abstractions should still leave the programmer feeling like they're in control of the underlying system, such as by making it easy to notice (or avoid) certain types of operations. ![Confident][] 
-* **People want to focus on solving their problem, not the fiddly details,** so Rust is **productive**. We favor APIs that where the most convenient and high-level option is also the most efficient one. We support portability across operating systems and execution environments by default. We aren't explicit for the sake of being explicit, but rather to surface details we believe are needed. ![WIP][]
+* **Rust users want to focus on solving their problem, not the fiddly details,** so Rust is **productive**. We favor APIs that where the most convenient and high-level option is also the most efficient one. We support portability across operating systems and execution environments by default. We aren't explicit for the sake of being explicit, but rather to surface details we believe are needed. ![WIP][]
 * **N✕M is bigger than N+M**, and so we design for **composability and orthogonality**. We are looking for features that tackle independent problems and build on one another, giving rise to N✕M possibilities. ![WIP][]
 * **It's nicer to use one language than two,** so Rust is **versatile**. Rust can't be the best at everything, but we can make it decent for just about anything, whether that's low-level C code or high-level scripting. ![WIP][]
 

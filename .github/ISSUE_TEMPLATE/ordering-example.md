@@ -2,7 +2,7 @@
 name: Example that supports or rebuts the current ordering
 about: Ordering indicates which axioms take precedence when they conflict.
 title: ''
-labels: ''
+labels: 'change-to-ordering'
 assignees: ''
 
 ---
