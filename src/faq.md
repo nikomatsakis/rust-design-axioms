@@ -7,3 +7,7 @@ The axioms are meant to capture and ake explicit the assumptions and intuitions 
 ## Why do you call them design axioms? Aren't these the same as (tenets | guiding principles | whatever)?
 
 The term *design axiom* is inspired by proof systems, where *axioms* are the things that you assert to be true and take on faith, and from which the rest of your argument follows. Our goal is to capture this for Rust: What are the starting assumptions that, followed to their conclusion, lead you to design Rust? The more clearly we can articulate those assumptions, the better we'll be able to ensure that we continue to follow them as we evolve Rust to meet future needs.
+
+## I have some ideas for how to improve the axioms! How can I help?
+
+See the [contributing](./contributing.md) section!
