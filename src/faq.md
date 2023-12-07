@@ -6,7 +6,7 @@ The axioms are meant to capture and ake explicit the assumptions and intuitions 
 
 ## What is the scope of the axioms?
 
-The axioms are meant to explain why we designed Rust the way we did. They cover the technical side of Rust (the language, standard library, tooling, etc) but they also apply to the way we run the project (open source, our release model etc). It's possible this should be brought out more explicitly. As an example point of inspiration, I quite appreciated how [Hyper's design tenets](https://seanmonstar.com/blog/hypers-vision/) intermix elements of community, beginning with *Open*.
+The axioms are meant to explain why we designed Rust the way we did. They primarily cover the technical side of Rust (the language, standard library, tooling, etc) but they also apply to the way we run the project (open source, our release model etc). It's possible this should be brought out more explicitly. As an example point of inspiration, I quite appreciated how [Hyper's design tenets](https://seanmonstar.com/blog/hypers-vision/) intermix elements of community, beginning with *Open*.
 
 ## Why do you call them design axioms? Aren't these the same as (tenets | guiding principles | whatever)?
 
