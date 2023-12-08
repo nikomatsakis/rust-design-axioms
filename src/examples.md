@@ -24,4 +24,4 @@ But more interesting art the examples of where the axioms are in *tension*.
 ## Counterexamples where we violated the ordering
 
 * "Productive" over "Transparent" and, arguably, "Reliable"
-    * Auto traits: 
+    * Auto traits:

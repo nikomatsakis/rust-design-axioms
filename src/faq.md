@@ -2,7 +2,7 @@
 
 ## What are the axioms for?
 
-The axioms are meant to capture and ake explicit the assumptions and intuitions that we use when building Rust. When making a decision, whether it's a question of language design or something else, we implicitly bring assumptions, intuitions, and hypotheses to bear, often without noticing. You might think, "*Hmm, maybe we could do X? Oh, but if we did that, it would mean Y, and I don't want that, scratch that idea.*" The goal for design axioms is to capture those moments -- whatever **Y** is right there, it's one of the **design axioms** we are using --- and write them out explicitly. Once we have the axioms written out, they can be used when facing future decisions. This in turn helps to bring alignment to a group of people by making those intutions explicit (and giving people a chance to refute or sharpen them). 
+The axioms are meant to capture and ake explicit the assumptions and intuitions that we use when building Rust. When making a decision, whether it's a question of language design or something else, we implicitly bring assumptions, intuitions, and hypotheses to bear, often without noticing. You might think, "*Hmm, maybe we could do X? Oh, but if we did that, it would mean Y, and I don't want that, scratch that idea.*" The goal for design axioms is to capture those moments -- whatever **Y** is right there, it's one of the **design axioms** we are using --- and write them out explicitly. Once we have the axioms written out, they can be used when facing future decisions. This in turn helps to bring alignment to a group of people by making those intutions explicit (and giving people a chance to refute or sharpen them).
 
 ## What is the scope of the axioms?
 
